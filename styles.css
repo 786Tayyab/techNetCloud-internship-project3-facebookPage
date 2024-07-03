@@ -1,0 +1,66 @@
+body {
+    background-color: #f0f2f5;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1877f2;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #606770;
+}
+
+.btn-primary {
+    background-color: #1877f2;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #155db0;
+}
+
+.btn-success {
+    background-color: #42b72a;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #36a420;
+}
+
+.text-secondary {
+    color: #606770;
+}
+
+.text-secondary:hover {
+    color: #385898;
+}
+
+@media (max-width: 1024px) {
+    .login-container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        padding: 10px;
+    }
+}
